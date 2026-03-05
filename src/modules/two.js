@@ -2,4 +2,4 @@ const myName = () => {
     console.log("two");
 }
 
-module.exports = myName
+export default myName
