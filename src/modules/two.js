@@ -2,4 +2,4 @@ const myName = () => {
     console.log("two");
 }
 
-export default myName
+export default myName 
