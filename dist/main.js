@@ -1,1 +1,1 @@
-(()=>{var o={872(o){o.exports=()=>{console.log("one")}},206(o){o.exports=()=>{console.log("two")}}},r={};function e(t){var s=r[t];if(void 0!==s)return s.exports;var n=r[t]={exports:{}};return o[t](n,n.exports,e),n.exports}const t=e(872),s=e(206);t(),s()})();
+(()=>{"use strict";console.log("one"),console.log("two")})();
