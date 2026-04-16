@@ -33,7 +33,7 @@ const timer = (deadLine) => {
             timerMinutes.textContent = addZero(getTime.minutes)
             timerSeconds.textContent = addZero(getTime.seconds)
         }
-        console.log("Hello");
+
         
 
         // if (getTime.timeRemaining > 0) {
