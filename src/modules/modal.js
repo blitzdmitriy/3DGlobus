@@ -26,11 +26,7 @@ const modal = () => {
         })
     })
 
-    closeBtn.addEventListener('click', () => {
-        modal.style.display = 'none'
-        // animateClose()
-    })
-
+   
     // function animateClose() {
     //     animationId = requestAnimationFrame(animateClose)
     //     count -= 5
@@ -41,6 +37,14 @@ const modal = () => {
     //         modal.style.display = 'none'
     //     }
     // }
+
+    modal.addEventListener('click', (e) => {
+        if (!e.target.closest('.popup-content') || e.target.classList.contains('popup-close')) {
+            modal.style.display = 'none'
+            
+        }
+        
+    })
 }
 
 export default modal
